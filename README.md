@@ -40,38 +40,6 @@ All implementations are written in **MATLAB**, using `.mlx` live scripts for cla
 ├── KATSAROS_ANDREAS_1084522_EA1_REPORT.pdf
 └── README.md
 ```
-# Image Processing – Laboratory Exercises (Part B)
-
-This repository contains the implementation for **Laboratory Exercise – Part B** of the *Image Processing* course.  
-The focus of this part is on **feature extraction** and **pattern classification**, applying classical computer vision techniques to real image data.
-
-The code is intentionally kept simple, clear, and well-structured, emphasizing correctness and reproducibility rather than over-engineering.
-
----
-
-## Overview
-
-Part B concentrates on object representation and classification using:
-
-- Histogram of Oriented Gradients (HOG)
-- Support Vector Machines (SVM)
-- Digit classification using the MNIST dataset
-
-The implementation demonstrates a complete pipeline:
-data loading → feature extraction → model training → evaluation.
-
----
-
-## Repository Structure
-
-```text
-.
-├── hog_svm_mnist_classifier.m   # Main script: HOG feature extraction + SVM training
-├── mnist_data_loader.m          # Utility for loading MNIST dataset
-├── Image_Processing_PART_A.ipynb
-├── KATSAROS_ANDREAS_EA2.pdf     # Technical report (Part B)
-└── README.md
-```
 
 ## Projects
 ## Institution
